@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="Assets/rain.png" type="image/x-icon" />
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Title -->
+    <title>Weather Journal</title>
+  </head>
+  <body>
+    <div class="app contrainer">
+      <!-- Title -->
+      <div class="title">Weather Journal App</div>
+
+      <form>
+        <!-- Zip Code -->
+        <input id="zip" placeholder="Zip Code" />
+        <!-- Feelings -->
+        <textarea id="feelings" placeholder="Your Feelings"></textarea>
+        <!-- Generate btn -->
+        <button id="generate" type="submit">Generate</button>
+      </form>
+
+      <!-- Data -->
+      <div id="entryHolder">
+        <div id="date"></div>
+        <div id="temp"></div>
+        <div id="content"></div>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
